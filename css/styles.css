@@ -1,0 +1,203 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+#title {
+  background-color: #3d155f;
+  color: #DF678c;
+  text-align: left;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat=Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+  font-size: 1.5rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: Montserrat-Bold;
+  font-size: 1.2rem;
+}
+
+/* Buttons */
+.Download-Button {
+  color: #fff;
+  border-color:#DF678c;
+  background-color:#9900cc;
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 20%;
+  top: 150px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.Feature-Box {
+  padding: 5%;
+}
+
+.icon {
+  color: #3d155f;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c75;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color:#9900cc;
+  color: #DF678c;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press {
+  align-content: center;
+  background-color:#3d155f ;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+@media (max-width: 1000px) {
+  #testimonials {
+    text-align: center;
+  }
+
+  #pricing {
+    text-align: center;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: auto;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  color: #ff4c75;
+  padding: 5% 15% 5%;
+  background-color: #3d155f;
+}
+
+.user-pic {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: 20px auto 20px;
+  border-left: 3px solid #ddd;
+  border-right: 3px solid #ddd;
+  border-top: 3px solid #9900cc;
+  border-bottom: 3px solid #9900cc;
+  transform: rotate(-30deg);
+  transition: 0.5s;
+}
+
+.card-box:hover .user-pic {
+  transform: rotate(0deg);
+  transform: scale(2);
+  transform-style: preserve-3d;
+}
+
+.card-box {
+  padding: 15px;
+  background-color: #ff4c75;
+  margin: 20px 0px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0px 0px 8px 0px #d4d4d4;
+  transition: 0.5s;
+}
+
+.card-box:hover {
+  border: 5px solid #9900cc;
+}
+
+.card-box p {
+  color: #fff;;
+}
+
+
+#footer {
+  padding: 7% 15%;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.cta-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.social-icon {
+  margin: 0 1%;
+}
+.dog-bio{
+  color: #e699ff;
+}
+.dog-info{
+  text-decoration:underline;
+  font-family: Montserrat;
+}
